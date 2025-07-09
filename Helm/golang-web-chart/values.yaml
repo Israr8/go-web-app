@@ -8,7 +8,7 @@ image:
   repository:  byisrar/golang
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "16178023631"
+  tag: "16178113706"
 
 ingress:
   enabled: false
