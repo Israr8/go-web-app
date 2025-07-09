@@ -109,7 +109,15 @@ image:
   tag: v2
 ```
 
+## 📸 Screenshots
+![image](https://github.com/user-attachments/assets/8590f9e0-a25a-4b53-9ca7-2c1124c194d5)
+![image](https://github.com/user-attachments/assets/38f598d9-f499-40b2-a1e1-78f038012b42)
 
+## 🙋‍♂️ Author
+Customized and deployed by @Israr8
+
+## 📄 License
+MIT License — Forked from iam-veeramalla/go-web-app
 
 
 
