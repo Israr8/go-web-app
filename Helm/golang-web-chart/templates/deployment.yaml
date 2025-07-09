@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: golang 
-        image:  byisrar/golang:{{ .Values.image.tag }}
+        image:  byisrar/go-web-app:{{ .Values.image.tag }}
         ports:
         - containerPort: 80 
