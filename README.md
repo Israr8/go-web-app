@@ -31,6 +31,7 @@ The original project is a lightweight Go HTTP web server. This fork adds:
 ---
 
 ## 🗂 Project Structure
+```yaml
 .
 ├── main.go # Go Web Server
 ├── static/ # HTML pages
@@ -38,9 +39,9 @@ The original project is a lightweight Go HTTP web server. This fork adds:
 ├── go-web-app-chart/ # Helm chart
 │ └── templates/
 │ └── values.yaml
-├── k8s/manifest/ # Raw Kubernetes YAMLs (optional)
+├── k8s/manifest/ # Raw Kubernetes YAMLs 
 └── README.md
-
+```
 
 ---
 
@@ -95,7 +96,7 @@ http://go-lang.local/about
 ```
 
 ## ✨ Sample Routes in Go
-```
+```yaml
 http.HandleFunc("/home", homePage)
 http.HandleFunc("/courses", coursePage)
 http.HandleFunc("/about", aboutPage)
