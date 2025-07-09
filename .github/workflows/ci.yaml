@@ -79,8 +79,8 @@ jobs:
 
     - name: Update tag in Helm chart
       run: |
-        sed -i 's/tag: .*/tag: "${{github.run_id}}"/' Helm/golang-web-chart/values.yaml
-
+        run: |
+             sed -i 's/tag: .*/tag: "${{github.run_id}}"/' $(find . -iname values.yaml)
     - name: Commit and push changes
       run: |
         git config --global user.email "israrshuaib29@gmail.com"
